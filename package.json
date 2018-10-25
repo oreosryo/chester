@@ -2,7 +2,7 @@
   "name": "chester-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://oreosryo.github.io/chester/",
+  "homepage": "https://oreosryo.github.io/chester",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
