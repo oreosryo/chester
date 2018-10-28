@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "52ee8f578753a97af5d8491e1bd5720c",
-    "url": "/chester/static/media/river-dee.52ee8f57.jpg"
+    "revision": "eaa30e6222331ad5b2fedd723818bd17",
+    "url": "/chester/static/media/location-pin.eaa30e62.svg"
   },
   {
-    "revision": "8176fcee5c7e3df2ef15",
-    "url": "/chester/static/css/main.92cee09a.chunk.css"
+    "revision": "8dde1457a276f58407b9",
+    "url": "/chester/static/css/main.913216ff.chunk.css"
   },
   {
-    "revision": "1cd938f0aee440b73899",
-    "url": "/chester/static/js/1.1cd938f0.chunk.js"
+    "revision": "003ae1fc08fb9e8fab89",
+    "url": "/chester/static/js/1.003ae1fc.chunk.js"
   },
   {
     "revision": "7d79cda1f8c062943589",
@@ -32,8 +32,16 @@ self.__precacheManifest = [
     "url": "/chester/static/media/castle.c21b347d.jpg"
   },
   {
-    "revision": "8176fcee5c7e3df2ef15",
-    "url": "/chester/static/js/main.8176fcee.chunk.js"
+    "revision": "52ee8f578753a97af5d8491e1bd5720c",
+    "url": "/chester/static/media/river-dee.52ee8f57.jpg"
+  },
+  {
+    "revision": "8dde1457a276f58407b9",
+    "url": "/chester/static/js/main.8dde1457.chunk.js"
+  },
+  {
+    "revision": "6e5ad71b9741a43cb0822933b587af36",
+    "url": "/chester/static/media/chester-city-map.6e5ad71b.png"
   },
   {
     "revision": "c1a5f00ffa1bbe6e9e328db1d716c6fb",
@@ -60,7 +68,7 @@ self.__precacheManifest = [
     "url": "/chester/static/media/cheshire-oaks.4808070a.jpeg"
   },
   {
-    "revision": "c19d5a6d8783269deea4f67913a8c011",
+    "revision": "6a078b41b03d7587a01e4d009723e037",
     "url": "/chester/index.html"
   }
 ];
