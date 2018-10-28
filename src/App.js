@@ -86,7 +86,7 @@ class PlaceGrid extends Component {
 
 
     return(
-      <div className="place-grid" id="my-places">
+      <div className="place-grid">
         <div className="grid">
           {gridItems}
         </div>

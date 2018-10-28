@@ -6,7 +6,7 @@ class PlaceMap extends Component {
     render () {
         return (
             <div style={{maxWidth: '800px', margin: '0 auto'}}>
-                <h1 className="grid-header">My Places</h1>
+                <h1 className="grid-header" id="my-places">My Places</h1>
                 <div className="map-container">
                     <img className="map" src={map} alt="Chester City Map"/>
                     <PlaceGrid2 />
