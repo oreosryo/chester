@@ -14,7 +14,7 @@ var data = [
     {
       "name": "Chester City Baths",
       "imgUrl": require("./assets/location-images/atlantic-pool.jpg"),
-      "content": "Large swimming pools used for competitive swimming. My school used to take us here every Wednesday for swimming classes and used to visit during weekends when my mom was learning how to swim as well. ",
+      "content": "Large swimming pools used for competitive swimming. Many swimming events are held here, open for public participation. My school used to take us here every Wednesday for swimming classes and I used to visit during the weekends as well. ",
       "coordinates": [89, 40]
     },
     {

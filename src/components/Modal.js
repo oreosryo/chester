@@ -20,7 +20,7 @@ class Modal extends React.Component {
       right: 0,
       backgroundColor: 'rgba(0,0,0,0.3)',
       padding: 50,
-      zIndex: 2
+      zIndex: 100
     };
 
     // The modal "window"
@@ -30,7 +30,8 @@ class Modal extends React.Component {
       maxWidth: 800,
       margin: '60px auto',
       textAlign: 'left', 
-      overflow: 'hidden'
+      overflow: 'hidden',
+      zIndex: 101
     };
 
     // close button 

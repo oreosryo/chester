@@ -87,7 +87,6 @@ a {
   overflow: hidden;
   position: relative;
   cursor: pointer;
-  z-index: 3;
 }
 
 .grid-item .background {
@@ -196,6 +195,7 @@ a {
   display: none;
   top: -50px;
   left: -40px;
+  z-index: 3;
 }
 
 .map-container .grid-item .location {
