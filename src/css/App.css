@@ -117,41 +117,6 @@ a {
   width: 100%;
 }
 
-/* modal content styles */
-.modal-content {
-  margin: 16px;
-}
-
-.modal-content .header {
-  overflow: hidden; 
-  font-family: 'Caveat Brush', cursive;
-  font-size: 36px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.image-container {
-  margin: 0 auto;
-  overflow: hidden;
-  text-align: center;
-  float: left;
-  margin: -16px 32px -8px -16px;
-  height: 300px;
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
-}
-
-.image-container img {
-  height: 100%;
-  width: auto; 
-}
-
-.modal-content > .description {
-  margin: 16px 16px;
-}
-
 @media only screen and (max-height: 1200px) {
   .header-area {
     padding-top: 30px;
