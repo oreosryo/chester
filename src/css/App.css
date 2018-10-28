@@ -28,6 +28,7 @@ a {
 .header-area {
   max-width: 800px;
   margin: 0 auto;
+  padding-top: 0;
 }
 .main-header {
   font-family: 'Caveat Brush', cursive;
@@ -42,7 +43,6 @@ a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 12px;
-  text-transform: uppercase;
 }
 
 .header-area .description { 
@@ -143,4 +143,10 @@ a {
 
 .modal-content > .description {
   margin: 16px 16px;
+}
+
+@media screen and (max-height: 1200px) {
+  .header-area {
+    padding-top: 36px;
+  }
 }

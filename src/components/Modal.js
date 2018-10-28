@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+/* styles */
+
+
 class Modal extends React.Component {
   render() {
     // Render nothing if the "show" prop is false
@@ -17,7 +20,7 @@ class Modal extends React.Component {
       right: 0,
       backgroundColor: 'rgba(0,0,0,0.3)',
       padding: 50,
-      zIndex: 1
+      zIndex: 2
     };
 
     // The modal "window"
