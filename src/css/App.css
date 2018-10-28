@@ -95,7 +95,7 @@ a {
   transition: transform .2s;
 }
 
-.grid-item:hover .background {
+.grid-item:hover > .background {
   transform: scale(1.1);
 }
 
@@ -160,6 +160,7 @@ a {
   margin: 0 auto;
   position: relative;
   text-align: center;
+  display: block;
 }
 
 .map-container .map {
@@ -187,7 +188,6 @@ a {
 .map-container .grid-item {
   width: 100px;
   height: 100px;
-  display: inline-block;
   margin: 4px;
   overflow: hidden;
   position: relative;
@@ -196,6 +196,9 @@ a {
   top: -50px;
   left: -40px;
   z-index: 3;
+  opacity: 0; 
+  border-radius: 10%;
+  box-shadow: 2px 2px 25px #AAA;
 }
 
 .map-container .grid-item .location {
@@ -214,15 +217,22 @@ a {
 
 .grid-point:hover > .grid-item {
   display: block;
-  transition:t;
+  opacity: 1;
 }
 
 .grid-point:hover .location-pin {
   display: none;
 }
 
-@media screen and (max-height: 1200px) {
+@media only screen and (max-height: 1200px) {
   .header-area {
     padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .map-container {
+    display: none;
   }
 }
