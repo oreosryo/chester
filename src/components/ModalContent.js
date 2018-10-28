@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+/* styles */ 
+import '../css/ModalContent.css';
+
 class ModalContent extends Component {
     render() {
       return (

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import PlaceGrid2 from './PlaceGrid2';
-import map from '../assets/chester-city-map.png';
+import LocationPoints from './LocationPoints';
+import map from '../../assets/chester-city-map.png';
+
+/* styles */
+import '../../css/Map.css';
 
 class PlaceMap extends Component {
     render () {
@@ -9,7 +12,7 @@ class PlaceMap extends Component {
                 <h1 className="grid-header" id="my-places">My Places</h1>
                 <div className="map-container">
                     <img className="map" src={map} alt="Chester City Map"/>
-                    <PlaceGrid2 />
+                    <LocationPoints />
                 </div>
             </div>
         )

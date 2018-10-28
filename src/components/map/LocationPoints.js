@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 
-import data from '../Data';
-import GridItem from './GridItem';
+import data from '../../Data';
+import LocationItem from './LocationItem';
 
-class PlaceGrid2 extends Component {
+class LocationPoints extends Component {
     render () {
       let gridItems = [];
       let gridItemData = data;
   
       for (var i = 0; i < gridItemData.length; i++) {
         gridItems.push(
-          <GridItem 
+          <LocationItem 
             name={gridItemData[i].name} 
             imgUrl={gridItemData[i].imgUrl}
             content={gridItemData[i].content} 
@@ -30,4 +30,4 @@ class PlaceGrid2 extends Component {
     }
   }
 
-  export default PlaceGrid2;
+  export default LocationPoints;
