@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Modal from './components/Modal';
 import NavMenu from './components/NavMenu';
+import PlaceMap from './components/PlaceMap'
 
 /* data */
 import data from './Data';
@@ -86,7 +87,6 @@ class PlaceGrid extends Component {
 
     return(
       <div className="place-grid" id="my-places">
-        <h1 className="grid-header">My Places</h1>
         <div className="grid">
           {gridItems}
         </div>
@@ -102,7 +102,8 @@ class App extends Component {
       <div>
         <NavMenu />
         <Header /> 
-        <PlaceGrid /> 
+        <PlaceMap />
+        <PlaceGrid />
       </div>
     )
   }

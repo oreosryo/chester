@@ -30,7 +30,7 @@ class Header extends Component {
               </div>
             <div className="sub-section" id="meaning">
               <h1>What this city means to me</h1>
-              I lived here for 3 years (2001-2004). It was filled with lots of travel, life-changing experiences and fond memories. The city has a vibrant history which you can see yourself through all the Roman, Tudor and Victorian architecture. 
+              I lived here for 3 years (2001-2004). This time was filled with lots of travel, life-changing experiences and fond memories. The city has a vibrant history which you can see yourself through all the Roman, Tudor and Victorian architecture. 
               <div className="description-images">
                 <img src={Merton} alt="Merton House Class"/>
               </div>

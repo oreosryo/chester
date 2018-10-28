@@ -72,14 +72,22 @@ a {
   text-align: center;
 }
 
+.grid-header {
+  padding: 16px 0;
+  text-align: center;
+  font-size: 30px; 
+  font-weight: 300;
+}
+
 .grid-item {
-  width: 392px;
-  height: 392px;
+  width: 200px;
+  height: 200px;
   display: inline-block;
   margin: 4px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
+  z-index: 3;
 }
 
 .grid-item .background {
@@ -88,7 +96,7 @@ a {
   transition: transform .2s;
 }
 
-.grid-item .background:hover {
+.grid-item:hover .background {
   transform: scale(1.1);
 }
 
@@ -101,13 +109,13 @@ a {
   bottom: 0px;
   left: 0px;
   color: #FFF;
-  width: 100%;
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
   text-align: left;
   padding: 16px;
+  width: 100%;
 }
 
 /* modal content styles */
@@ -145,8 +153,76 @@ a {
   margin: 16px 16px;
 }
 
+/* map styles */ 
+.map-container {
+  height: 80vh;
+  width: 80vh;
+  overflow: scroll;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.map-container .map {
+  height: auto;
+  width: 100%;
+}
+
+.place-grid2 {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  height: 100vh;
+  width: 100%;
+}
+
+.place-grid2 .grid {
+  height: 100%;
+  position: relative;
+}
+
+.map-container .grid-point {
+  position: absolute;
+}
+
+.map-container .grid-item {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 4px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  display: none;
+  top: -50px;
+  left: -40px;
+}
+
+.map-container .grid-item .location {
+  font-size: 10px;
+  padding: 8px;
+  width: auto;
+  font-weight: 400;
+}
+
+.location-pin {
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+  display: block;
+}
+
+.grid-point:hover > .grid-item {
+  display: block;
+  transition:t;
+}
+
+.grid-point:hover .location-pin {
+  display: none;
+}
+
 @media screen and (max-height: 1200px) {
   .header-area {
-    padding-top: 36px;
+    padding-top: 30px;
   }
 }
