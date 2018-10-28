@@ -8,7 +8,7 @@ var data = [
     {
       "name": "Merton House",
       "imgUrl": require("./assets/location-images/merton-house.jpg"), 
-      "content": "A private primary school in a Victorian house. It was our mini-Hogwarts with a large garden. I got my first taste of computer science and robotics here! Sadly, the school was shut down a few years ago.",
+      "content": "A private primary school in a large Victorian house with a garden. I got my first taste of computer science, robotics and tennis here! Sadly, the school was shut down a few years ago.",
       "coordinates": [78, 31]
     },
     {
