@@ -14,6 +14,7 @@ class LocationItem extends Component {
         imgUrl: null,
         content: null,
         coordinates: null,
+        thingsToDo: null,
         isOpen: false
       }
     }
@@ -50,7 +51,8 @@ class LocationItem extends Component {
                 <ModalContent 
                 name={this.props.name} 
                 imgUrl={this.props.imgUrl} 
-                content={this.props.content}>
+                content={this.props.content}
+                thingsToDo={this.props.thingsToDo}>
                 </ModalContent>
               </Modal>
             </div>

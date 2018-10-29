@@ -15,6 +15,7 @@ class LocationPoints extends Component {
             imgUrl={gridItemData[i].imgUrl}
             content={gridItemData[i].content} 
             coordinates={gridItemData[i].coordinates}
+            thingsToDo={gridItemData[i].thingsToDo}
             key={i}
           />);
       }

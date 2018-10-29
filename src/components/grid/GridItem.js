@@ -12,6 +12,7 @@ class GridItem extends Component {
         name: null, 
         imgUrl: null,
         content: null,
+        thingsToDo: null,
         isOpen: false
       }
     }
@@ -35,7 +36,8 @@ class GridItem extends Component {
             <ModalContent 
               name={this.props.name} 
               imgUrl={this.props.imgUrl} 
-              content={this.props.content}>
+              content={this.props.content}
+              thingsToDo={this.props.thingsToDo}>
             </ModalContent>
           </Modal>
         </div>

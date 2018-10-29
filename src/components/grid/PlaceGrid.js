@@ -15,6 +15,7 @@ class PlaceGrid extends Component {
             name={gridItemData[i].name} 
             imgUrl={gridItemData[i].imgUrl}
             content={gridItemData[i].content} 
+            thingsToDo={gridItemData[i].thingsToDo}
             key={i}
           />);
       }

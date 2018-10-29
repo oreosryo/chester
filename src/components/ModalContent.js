@@ -10,11 +10,15 @@ class ModalContent extends Component {
           <div className="image-container">
             <img src={this.props.imgUrl} alt={this.props.name} /> 
           </div>
-            <div className="header">
+          <div className="header">
               <span className="header-name">{this.props.name}</span> 
-            </div>
-            <div className="description">
+          </div>
+          <div className="description">
               {this.props.content}
+          </div>
+          <div class="things-to-do">
+            <h1>Things to do</h1>
+            {this.props.thingsToDo}
           </div>
         </div>
       );
