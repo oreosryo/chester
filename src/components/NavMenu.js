@@ -8,7 +8,7 @@ class NavMenu extends Component {
         return (
             <div className="nav-menu">
                 <div className="menu-item"><a href="#about">About</a></div>
-                <div className="menu-item"> - <a href="#meaning">What the City Means to Me</a></div>
+                <div className="menu-item"><a href="#meaning">What the City Means to Me</a></div>
                 <div className="menu-item"><a href="#my-places">My Places</a></div>
             </div> 
         );
